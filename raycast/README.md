@@ -1,0 +1,1 @@
+Started with a test to select a tile based on a raycast hit. Ended up using the fact that the tile position is fixed on the grid and the tile can be found from just the mouse click position on the screen.

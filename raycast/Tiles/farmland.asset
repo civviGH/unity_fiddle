@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: farmland
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 36545178509db46469813a290f12b5b8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e947b4e61e21614fa8154a129265383, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

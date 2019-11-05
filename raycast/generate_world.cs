@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class generate_world : MonoBehaviour
+public class Generate_world : MonoBehaviour
 {
 
   public int x_size, y_size;
@@ -24,8 +24,6 @@ public class generate_world : MonoBehaviour
     farm_map = GetComponent<Tilemap>();
     Debug.Log(farm_map.cellBounds);
 
-
-
     // farm_map.SetTile(new Vector3Int (0, 0, 0), default_tile);
 
     BoundsInt bbox = new BoundsInt(0, 0, 1, x_size, y_size, 1);
@@ -35,6 +33,7 @@ public class generate_world : MonoBehaviour
     }
     Debug.Log("setting tiles block");
     farm_map.SetTilesBlock(bbox, tile_array);
+    Debug.Log("done");
   }
 
   void Update(){

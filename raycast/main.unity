@@ -317,12 +317,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1097218569}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e740f5b359845b141ba03c4012744022, type: 3}
+  m_Script: {fileID: 11500000, guid: 5079f25eb95ec244b9bf039afc8689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  x_size: 17
+  x_size: 18
   y_size: 8
-  default_tile: {fileID: 11400000, guid: 5326e57056f7a0148a51a2313637cda9, type: 2}
+  default_tile: {fileID: 11400000, guid: fd89341ab8c3b5842bdb82607afac680, type: 2}
 --- !u!1 &1098250581
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,7 +400,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098250581}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.5, y: 3, z: -10}
+  m_LocalPosition: {x: 9, y: 3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

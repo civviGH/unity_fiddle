@@ -46,7 +46,7 @@ public class PlayerScript : MonoBehaviour
 
       if (selected == -1){
         if (Input.GetMouseButtonDown(0)){
-          Debug.Log("Mouse down with hoe.");
+          Debug.Log("Mouse down without hoe.");
         }
       }
       if (selected == 0){
